@@ -260,7 +260,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "mogenerator --model \"${PROJECT_DIR}/RestKitTutorial/Model.xcdatamodeld/Model.xcdatamodel\" --output-dir \"${PROJECT_DIR}/RestKitTutorial\" --template-var arc=true";
+			shellScript = "";
 		};
 /* End PBXShellScriptBuildPhase section */
 

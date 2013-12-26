@@ -60,8 +60,8 @@
     
     RKObjectManager *manager = [RKObjectManager managerWithBaseURL:[NSURL URLWithString:@"https://api.parse.com/1/"]];
     
-    [[manager HTTPClient] setDefaultHeader:@"X-Parse-REST-API-Key" value:@"your key"];
-    [[manager HTTPClient] setDefaultHeader:@"X-Parse-Application-Id" value:@"your key"];
+    [[manager HTTPClient] setDefaultHeader:@"X-Parse-REST-API-Key" value:@"BOd534unctvRejdHVNK6VasipAXvfydZeTlIRNqv"];
+    [[manager HTTPClient] setDefaultHeader:@"X-Parse-Application-Id" value:@"Dwes9GEYetWAvgSqUuXEQRoFGyXmHss1kBuil0iQ"];
     
     NSManagedObjectModel *managedObjectModel = [NSManagedObjectModel mergedModelFromBundles:nil];
     RKManagedObjectStore *managedObjectStore = [[RKManagedObjectStore alloc] initWithManagedObjectModel:managedObjectModel];
